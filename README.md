@@ -33,6 +33,8 @@ I've since found that [WizardOfOdds.com](https://wizardofodds.com/games/blackjac
 
 ## Other Stuff
 
+Uses [pyDealer](https://github.com/Trebek/pydealer) to do the heavy lifting regarding the deck of cards.
+
 I was surprised at how many trials it took for the odds and ROI to stablize.  I thought I was going to be able to get away with running only 10k trials but even at 1MM hands played, there was still a small amount of movement.  At 10MM trials the numbers stablized and were then validated against WizardOfOdds.com's math.
 
 The code is set to print to a text file since printing to the console would crash at 10MM trials.
