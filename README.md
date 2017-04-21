@@ -1,4 +1,5 @@
 # BlackJack-RoyalMatch-Simulator
+Simulates odds and return on investment for the Royal Match bonus bet in BlackJack
 
 ## Introduction
 
